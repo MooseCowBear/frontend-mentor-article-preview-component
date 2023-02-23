@@ -16,8 +16,8 @@ Users should be able to:
 
 ## Links
 
-- [Solution]()
-- [Live]()
+- [Solution](https://github.com/MooseCowBear/frontend-mentor-article-preview-component)
+- [Live](https://moosecowbear.github.io/frontend-mentor-article-preview-component/)
 
 ## Built with
 
