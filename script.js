@@ -15,7 +15,7 @@ function TogglePopUp() {
 document.addEventListener("click", function(e) {
     const targetId = e.target.getAttribute('id');
     const ignore = e.target.classList.contains("popup");
-        if (targetId != "popup" && targetId != "share-arrow" && !ignore){
+        if (targetId != "share-arrow" && !ignore){
             ClosePopUp();
         }
     }
