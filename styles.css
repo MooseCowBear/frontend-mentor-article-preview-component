@@ -155,7 +155,7 @@ h2{
 .circle.show {
     background-color: var(--text-main);
 }
-.share.show { /* problem */
+.share.show { 
     filter: brightness(0) invert(1);
 }
 
