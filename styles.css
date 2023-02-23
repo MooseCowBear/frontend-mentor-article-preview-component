@@ -154,6 +154,13 @@ h2{
     z-index: 3;
 }
 
+.circle.show {
+    background-color: var(--text-main);
+}
+.share.show {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(25%) hue-rotate(13deg) brightness(105%) contrast(108%);
+}
+
 #popup p {
     color: var(--text-tertiary);
     text-transform: uppercase;
@@ -244,5 +251,9 @@ h2{
 
     .icon {
         width: 1.5em;
+    }
+
+    .circle.show {
+        background-color: var(--text-secondary);
     }
 }
