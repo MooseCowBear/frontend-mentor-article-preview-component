@@ -1,11 +1,7 @@
 const shareArrow = document.getElementById("share-arrow"); 
-shareArrow.addEventListener("click", function(e) {
-    console.log("you clicked", e.target);
-    TogglePopUp()
-});
+shareArrow.addEventListener("click", TogglePopUp);
 
 function TogglePopUp() {
-    console.log("called function");
     const popup = document.getElementById("popup");
     popup.classList.toggle("show");
     
@@ -30,7 +26,8 @@ function ClosePopUp() {
   const background = document.getElementById("arrow-background");
   
     if (popup.classList.contains("show")){
-        background.classList.toggle("show");
-        popup.classList.toggle("show");
+        background.classList.remove("show");
+        popup.classList.remove("show");
+        shareArrow.classList.remove("show");
     }
 }

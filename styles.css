@@ -15,10 +15,7 @@
 body,
 h1,
 h2,
-p,
-article, /* do i need these 3? */
-aside,
-dialog {
+p {
   margin: 0;
 }
 
