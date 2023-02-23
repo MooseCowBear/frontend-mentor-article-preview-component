@@ -148,7 +148,6 @@ h2{
     height: 2.2em;
     padding: 0.5em;
     background-color: transparent;
-    /*filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(25%) hue-rotate(13deg) brightness(105%) contrast(108%);*/
     position: absolute;
     right: 0;
     z-index: 3;
@@ -157,8 +156,8 @@ h2{
 .circle.show {
     background-color: var(--text-main);
 }
-.share.show {
-    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(25%) hue-rotate(13deg) brightness(105%) contrast(108%);
+.share.show { /* problem */
+    filter: brightness(0) invert(1);
 }
 
 #popup p {
@@ -168,7 +167,7 @@ h2{
 }
 
 .icon {
-    width: 1.3em;
+    height: 1.3em;
 }
 
 #popup {
@@ -250,7 +249,7 @@ h2{
     }
 
     .icon {
-        width: 1.5em;
+        height: 1.5em;
     }
 
     .circle.show {
