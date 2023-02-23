@@ -1,0 +1,7 @@
+:root {
+    --text-main: hsl(217, 19%, 35%);
+    --text-secondary: hsl(214, 17%, 51%);
+    --text-tertiary: hsl(212, 23%, 69%); /*not sure where this was used... */
+    --background: hsl(210, 46%, 95%);
+}
+
